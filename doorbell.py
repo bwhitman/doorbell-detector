@@ -72,7 +72,7 @@ def main(argv):
                 log.write("[%s] %s %0.4f\n" %(datetime.now().strftime("%m/%d/%Y %H:%M:%S"), top_class_str, prediction[x]))
                 log.flush()
                 # And if it's one of the doorbell ones, ping the homebridge server
-                if(top_class_str in ["Beep, bleep", "Doorbell", "Glass", "Sonar", "Ding"]):
+                if(top_class_str in ["Beep, bleep", "Doorbell", "Glass", "Ding"]):
                   trigger_homekit_motion()
 
 
