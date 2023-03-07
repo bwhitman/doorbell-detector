@@ -33,6 +33,7 @@ and install the "Homebridge Http Motion Sensor" plugin and set it up with this j
 restart homebridge
 
 ## boot on startup
+pip install -r requirements.txt
 
 put `doorbell.py` in `models/research/audioset/yamnet` and then add it in /etc/rc.local like
 
